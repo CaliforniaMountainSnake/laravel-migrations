@@ -2,6 +2,7 @@
 
 namespace CaliforniaMountainSnake\LaravelMigrations;
 
+use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Builder;
 use PDO;
 
@@ -11,9 +12,14 @@ use PDO;
 interface MigrationInterface
 {
     /**
+     * @return Connection
+     */
+    public function getDbConnection(): Connection;
+
+    /**
      * @return Builder
      */
-    public function getDatabaseConnection(): Builder;
+    public function getSchemaConnection(): Builder;
 
     /**
      * @return PDO

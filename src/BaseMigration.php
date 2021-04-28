@@ -12,6 +12,6 @@ abstract class BaseMigration extends Migration implements MigrationInterface
      */
     public function getPdo(): PDO
     {
-        return $this->getDatabaseConnection()->getConnection()->getPdo();
+        return $this->getDbConnection()->getPdo();
     }
 }

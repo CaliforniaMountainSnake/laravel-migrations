@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 
 
+## [2.0.0] - 2021-04-28
+### Changed
+- Global update of the MigrationInterface: it requires now 2 types of connections: schema builder and default db connection.
+
 ## [1.0.2] - 2020-05-22
 ### Fixed
 - Fixed CHANGELOG.md.
@@ -28,6 +32,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Initial commit.
 
+[2.0.0]: https://github.com/CaliforniaMountainSnake/laravel-migrations/compare/1.0.2...2.0.0
 [1.0.2]: https://github.com/CaliforniaMountainSnake/laravel-migrations/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/CaliforniaMountainSnake/laravel-migrations/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/CaliforniaMountainSnake/laravel-migrations/compare/0.0.1...1.0.0
